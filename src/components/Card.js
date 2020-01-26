@@ -80,6 +80,7 @@ export default class Card extends Component {
 
         return (
             <TouchableWithoutFeedback
+            
                 onPress={() => this.doFlipAnimation()}>
                 <View style={this.props.containerStyle}>
                     <Animated.View style={[styles.frontCardStyle, frontStyle, this.props.containerStyle]}>
